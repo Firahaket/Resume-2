@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #b397a0;
+    --secondary-color:#dddbe6; 
+}
+
+body {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(248, 213, 213);
+    background-color: var(--secondary-color);
+}
+
+h2{
+    color: aquas;
+}

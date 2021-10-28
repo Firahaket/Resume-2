@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #b397a0;
+  --secondary-color:#dddbe6;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #f8d5d5;
+  background-color: var(--secondary-color);
+}
+
+h2 {
+  color: aquas;
+}
+/*# sourceMappingURL=main.css.map */
