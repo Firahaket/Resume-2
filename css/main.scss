@@ -8,17 +8,27 @@
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .row {
     background-color: var(--primary-color);
     padding: 1.5em;
+
+    h2{
+        font-weight: bold;
+    }
 
     h6{
         color:var(--secondary-color);
         font-weight: bold;
     }
+
+    a{
+        text-decoration: none;
+    }
 }
+
 .header{
     color: black;
 }
@@ -37,8 +47,42 @@ body {
     background-color: var(--secondary-color);  
     padding: 1.8em;
 
-    li{
+    h3{
+        font-weight: bold;
+        color:var(--primary-color);
+    }
+
+    a{
         text-decoration: none;
+    }
+
+    .lang{
+        box-sizing: border-box;
+        border: 1.2px solid black;
+        border-spacing: 50px;
+        margin: 0;
+        padding: 1.5em;
+        width: 70%;
+
+        th{
+            height: 50px;
+            text-align: center;
+            border: 1.2px solid var(--primary-color);
+
+            &:hover{
+                color: var(--primary-color);
+            }
+        }
+
+        td{
+            text-align: center;
+            border: 1.2px solid var(--primary-color);
+
+            &:hover{
+                font-weight: bold;
+                background-color:var(--primary-color);
+            }
+        }
     }
 }
 
@@ -60,4 +104,13 @@ body {
     -webkit-box-shadow: 0px 3px 10px 3px rgba(117,99,99,0.73);
     -moz-box-shadow: 0px 3px 10px 3px rgba(117,99,99,0.73);
 }
+
+a{
+    &:hover{
+        font-weight: bold;
+    }
 }
+
+}
+
+//change relative paths

@@ -17,9 +17,17 @@ body {
   padding: 1.5em;
 }
 
+.row h2 {
+  font-weight: bold;
+}
+
 .row h6 {
   color: var(--secondary-color);
   font-weight: bold;
+}
+
+.row a {
+  text-decoration: none;
 }
 
 .header {
@@ -39,8 +47,43 @@ body {
   padding: 1.8em;
 }
 
-.main li {
+.main h3 {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.main a {
   text-decoration: none;
+}
+
+.main .lang {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1.2px solid black;
+  border-spacing: 50px;
+  margin: 0;
+  padding: 1.5em;
+  width: 70%;
+}
+
+.main .lang th {
+  height: 50px;
+  text-align: center;
+  border: 1.2px solid var(--primary-color);
+}
+
+.main .lang th:hover {
+  color: var(--primary-color);
+}
+
+.main .lang td {
+  text-align: center;
+  border: 1.2px solid var(--primary-color);
+}
+
+.main .lang td:hover {
+  font-weight: bold;
+  background-color: var(--primary-color);
 }
 
 .contact {
@@ -61,5 +104,9 @@ body {
   box-shadow: 0px 3px 10px 3px rgba(117, 99, 99, 0.73);
   -webkit-box-shadow: 0px 3px 10px 3px rgba(117, 99, 99, 0.73);
   -moz-box-shadow: 0px 3px 10px 3px rgba(117, 99, 99, 0.73);
+}
+
+.contact a:hover {
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
